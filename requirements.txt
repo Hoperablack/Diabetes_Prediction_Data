@@ -1,0 +1,66 @@
+absl-py==1.4.0
+accelerate==1.6.0
+aiohttp==3.11.15
+albumentations==2.0.6
+altair==5.5.0
+anyio==4.9.0
+astropy==7.0.1
+attrs==25.3.0
+bokeh==3.7.2
+certifi==2025.4.26
+chardet==5.2.0
+click==8.1.8
+cloudpickle==3.1.1
+cycler==0.12.1
+dask==2024.12.1
+distributed==2024.12.1
+Flask==3.1.0
+fsspec==2025.3.2
+google-auth==2.38.0
+h5py==3.13.0
+ipython==7.34.0
+Jinja2==3.1.6
+joblib==1.4.2
+matplotlib==3.10.0
+nltk==3.9.1
+numpy==2.0.2
+pandas==2.2.2
+Pillow==11.2.1
+plotly==5.24.1
+protobuf==5.29.4
+pygments==2.19.1
+pytest==8.3.5
+python-dateutil==2.9.0.post0
+pytz==2025.2
+PyYAML==6.0.2
+requests==2.32.3
+scikit-learn==1.6.1
+scipy==1.15.2
+seaborn==0.13.2
+six==1.17.0
+spacy==3.8.5
+SQLAlchemy==2.0.40
+sympy==1.13.1
+tensorflow==2.18.0
+tqdm==4.67.1
+transformers==4.51.3
+typing_extensions==4.13.2
+urllib3==2.4.0
+Werkzeug==3.1.3
+
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+
+# PyTorch CPU Versions
+torch==2.3.0+cpu
+torchvision==0.18.0+cpu
+torchaudio==2.3.0+cpu
+
+# Streamlit & Visualization
+streamlit==1.35.0
+plotnine==0.14.5
+
+# Removed all CUDA/NVIDIA packages and:
+# - Replaced GPU-specific RAPIDS packages with CPU versions
+# - Removed duplicate/conflicting packages
+# - Standardized Python 3.12 compatible versions
+# - Kept essential ML/NLP dependencies
